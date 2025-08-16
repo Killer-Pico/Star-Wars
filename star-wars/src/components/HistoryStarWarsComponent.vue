@@ -1,6 +1,7 @@
 <template>
   <div class="history">
-    <img class="Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Star_wars2.svg/1920px-Star_wars2.svg.png" alt="SW logo">
+  <p>"Давным-давно, в далёкой-далёкой галактике..." 
+"Наступило время гражданской войны. Повстанческие космические корабли, нанося удары с секретной базы, одержали свою первую победу над могущественной Галактической Империей. Во время битвы повстанцы успели похитить секретные чертежи абсолютного оружия Империи – Звезды Смерти, смертоносной космической станции, способной уничтожить целую планету. Преследуемые имперскими агентами, принцесса Лея спешит доставить чертежи повстанцам и заручиться поддержкой старого джедая Оби-Вана Кеноби, чтобы вернуть свободу галактике, порабощенной Империей...</p>
     <h1>История создания</h1>
     <p>Ещё в студенческие годы Джордж Лукас задумывал снять героическую космическую фантазию с космическими перестрелками в стиле фантастических комиксов и киносериалов, выходивших в США в 1940-е — 1950-е годы и «отмерших» к концу 1960-х. Основное влияние на «Звёздные войны» оказали космические оперы вроде сериала «Флэш Гордон» и франшизы о Баке Роджерсе, а также их прародитель — литературная серия Эдгара Берроуза «Джон Картер на Марсе». Сюжетно оригинальная трилогия «Звёздных войн» частично восходит к самурайским фильмам Акиры Куросавы (большей частью «Трём негодяям в скрытой крепости»). Также на сценарий фильма повлияли многие другие фантастические произведения, такие как роман «Космический жаворонок» основателя жанра космооперы Эдварда Элмера Смита и роман «Дюна» Фрэнка Герберта.
 В мае 1971 года в Каннах Лукас подписал со студией United Artists контракт на съёмку фильма «Звёздные войны», а 1 августа того же года название «The Star Wars» зарегистрировано Американской ассоциацией кинокомпаний.
@@ -10,61 +11,149 @@
 <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B" target="_blank">Информація взята з сайту Википедия</a>
 
 <h2>Звездные Войны Эпизод І: Краткий сюжет</h2>
-<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/4/40/Star_Wars_Phantom_Menace_poster.jpg" alt="Star Wars I Episode">
+<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/4/40/Star_Wars_Phantom_Menace_poster.jpg" alt="Star Wars I Episode" @click="openModal">
 <p>В «Звёздные войны: Эпизод I — Скрытая угроза» события разворачиваются за 32 года до оригинальной трилогии.
 Торговая федерация блокирует планету Набу. Джедаи Квай-Гон Джинн и его ученик Оби-Ван Кеноби отправляются на переговоры, но их пытаются убить. Они спасаются, помогают королеве Падме Амидале бежать и попадают на пустынную планету Татуин, где встречают мальчика Энакина Скайуокера — талантливого пилота с высокой чувствительностью к Силе.
 Энакин побеждает в гонках, получает свободу и отправляется с джедаями на Корусант. Совет джедаев сомневается в его обучении, но Квай-Гон уверен, что он — «избранный». В финале джедаи и силы Набу побеждают захватчиков, но Квай-Гон погибает от рук ситха Дарта Мола, которого затем побеждает Оби-Ван. Энакин начинает путь джедая.</p>
 <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B._%D0%AD%D0%BF%D0%B8%D0%B7%D0%BE%D0%B4_I:_%D0%A1%D0%BA%D1%80%D1%8B%D1%82%D0%B0%D1%8F_%D1%83%D0%B3%D1%80%D0%BE%D0%B7%D0%B0" target="_blank">Детальний сюжет: Звездные Войны: Скрытая Угроза</a>
 
 <h2>Звездные Войны Эпизод II: Краткий сюжет</h2>
-<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/a/ad/Star_Wars_Attack_of_the_Clones_poster.jpg" alt="Star Wars II Episode">
+<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/a/ad/Star_Wars_Attack_of_the_Clones_poster.jpg" alt="Star Wars II Episode" @click="openModal">
 <p>Через 10 лет после блокады Набу Энакин Скайуокер стал падаваном Оби-Вана. На сенатора Падме Амидалу совершается покушение, и джедаи начинают расследование. Оби-Ван раскрывает тайную армию клонов, созданную для Республики, и встречает графа Дуку — лидера сепаратистов. Энакин и Падме сближаются и тайно женятся, несмотря на запрет для джедаев. Начинается Война клонов.</p>
 <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B._%D0%AD%D0%BF%D0%B8%D0%B7%D0%BE%D0%B4_II:_%D0%90%D1%82%D0%B0%D0%BA%D0%B0_%D0%BA%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2" target="_blank">Детальний сюжет: Звездные Войны Атака Клонов</a>
 
 <h2>Звездные Войны Эпизод III: Краткий Сюжет</h2>
-<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/1/18/%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0_%C2%AB%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B._%D0%AD%D0%BF%D0%B8%D0%B7%D0%BE%D0%B4_III_%D0%9C%D0%B5%D1%81%D1%82%D1%8C_%D1%81%D0%B8%D1%82%D1%85%D0%BE%D0%B2%C2%BB.jpg" alt="Star Wars III Episode">
+<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/1/18/%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0_%C2%AB%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B._%D0%AD%D0%BF%D0%B8%D0%B7%D0%BE%D0%B4_III_%D0%9C%D0%B5%D1%81%D1%82%D1%8C_%D1%81%D0%B8%D1%82%D1%85%D0%BE%D0%B2%C2%BB.jpg" alt="Star Wars III Episode" @click="openModal">
 <p>Война клонов длится уже несколько лет. Канцлер Палпатин всё больше влияет на Энакина, обещая спасти Падме от смерти. Энакин поддаётся тёмной стороне и становится Дартом Вейдером, участвуя в уничтожении Ордена джедаев (приказ 66). В поединке на Мустафаре он проигрывает Оби-Вану и тяжело ранен, но выживает в кибердоспехах. Падме умирает, родив Люка и Лею, которых прячут на разных планетах.</p>
 <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B._%D0%AD%D0%BF%D0%B8%D0%B7%D0%BE%D0%B4_III:_%D0%9C%D0%B5%D1%81%D1%82%D1%8C_%D1%81%D0%B8%D1%82%D1%85%D0%BE%D0%B2" target="_blank">Детальний Сюжет: Звездные Войны Месть Ситхов</a>
 
 <h2>Звездные Войны Эпизод IV: Краткий Сюжет</h2>
-<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/8/87/StarWarsMoviePoster1977.jpg" alt="Star Wars IV Episode">
+<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/8/87/StarWarsMoviePoster1977.jpg" alt="Star Wars IV Episode" @click="openModal">
 <p>Спустя 19 лет Палпатин управляет Галактической Империей. Принцесса Лея передаёт планы оружия Империи — Звезды Смерти — дроиду R2-D2. Люк Скайуокер, фермер с планеты Татуин, вместе с Оби-Ваном, Ханом Соло и Чубаккой помогает доставить планы повстанцам. В финале Люк, используя Силу, уничтожает Звезду Смерти.</p>
 <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B._%D0%AD%D0%BF%D0%B8%D0%B7%D0%BE%D0%B4_IV:_%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0" target="_blank">Детальний Сюжет: Звездные Войны Новая Надежда</a>
 
 <h2>Звездные Войны Эпизод V: Краткий Сюжет</h2>
-<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/e/e0/Empire20strikes20back_old.jpg" alt="Star Wars Episode V">
+<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/e/e0/Empire20strikes20back_old.jpg" alt="Star Wars V Episode " @click="openModal">
 <p>Империя атакует базу повстанцев на Хоте. Люк отправляется к мастеру Йоде, чтобы обучаться Силе. Хан и Лея попадают в плен к Ландо Калриссиану, а затем к Вейдеру. Вейдер замораживает Хана в карбоните и раскрывает Люку, что он его отец. Люк потрясён и едва спасается.</p>
 <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B._%D0%AD%D0%BF%D0%B8%D0%B7%D0%BE%D0%B4_V:_%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B8%D1%8F_%D0%BD%D0%B0%D0%BD%D0%BE%D1%81%D0%B8%D1%82_%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B9_%D1%83%D0%B4%D0%B0%D1%80" target="_blank">Детальний Сюжет: Звездные Войны Империя наносит ответный удар</a>
 
 <h2>Звездные Войны Эпизод VI: Краткий Сюжет</h2>
-<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/b/b2/ReturnOfTheJediPoster1983.jpg" alt="Star Wars VI Episode">
+<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/b/b2/ReturnOfTheJediPoster1983.jpg" alt="Star Wars VI Episode" @click="openModal">
 <p>Люк и друзья спасают Хана от Джаббы Хатта. Повстанцы начинают атаку на вторую Звезду Смерти. Люк пытается вернуть Вейдера на светлую сторону, и тот в конце жертвует собой, убивая Императора. Звезда Смерти уничтожена, Империя повержена, Галактика празднует победу.</p>
 <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B._%D0%AD%D0%BF%D0%B8%D0%B7%D0%BE%D0%B4_VI:_%D0%92%D0%BE%D0%B7%D0%B2%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B4%D0%B6%D0%B5%D0%B4%D0%B0%D1%8F" target="_blank">Детальний Сюжет: Звездные Войны Возвращение Джедая</a>
 
 <h2>Звездные Войны Эпизод VII: Краткий Сюжет</h2>
-<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/a/a8/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B_%D0%9F%D1%80%D0%BE%D0%B1%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D1%81%D0%B8%D0%BB%D1%8B.jpg" alt="Star Wars VII Episode">
+<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/a/a8/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B_%D0%9F%D1%80%D0%BE%D0%B1%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D1%81%D0%B8%D0%BB%D1%8B.jpg" alt="Star Wars VII Episode" @click="openModal">
 <p>Спустя десятилетия на смену Империи пришёл Первый орден. Собирательша металлолома Рей встречает бывшего штурмовика Финна и дроида BB-8, в котором спрятана карта к Люку Скайуокеру. Хан Соло помогает им, но погибает от руки своего сына Кайло Рена. Рей находит Люка на далёком острове.</p>
 <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B:_%D0%9F%D1%80%D0%BE%D0%B1%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D1%81%D0%B8%D0%BB%D1%8B" target="_blank">Детальний Сюжет: Звездные Войны Пробуждение Силы</a>
 
 <h2>Звездные Войны Эпизод VIII: Краткий Сюжет</h2>
-<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/2/23/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%B5%D0%94%D0%B6%D0%B5%D0%B4%D0%B0%D0%B8.jpg" alt="Star Wars VIII Episode">
+<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/2/23/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%B5%D0%94%D0%B6%D0%B5%D0%B4%D0%B0%D0%B8.jpg" alt="Star Wars VIII Episode" @click="openModal">
 <p>Рей пытается убедить Люка вернуться и обучить её, но он замкнут из-за ошибок прошлого. Сопротивление терпит тяжёлые потери, а Кайло Рен укрепляет власть в Первом ордене. В решающий момент Люк создаёт проекцию самого себя, чтобы сдержать врагов и дать друзьям время уйти. От истощения он умирает, став легендой.</p>
 <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B:_%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%B5_%D0%B4%D0%B6%D0%B5%D0%B4%D0%B0%D0%B8" target="_blank">Детальний Сюжет: Звездные Войны Последние Джедаи</a>
 
 <h2>Звездные Войны Эпизод IX: Кратий Сюжет</h2>
-<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/e/eb/Star_Wars_%E2%80%94_The_Rise_of_Skywalker_%28poster%29.jpg" alt="Star Wars IX Episode">
+<img class="Img-SW" src="https://upload.wikimedia.org/wikipedia/ru/e/eb/Star_Wars_%E2%80%94_The_Rise_of_Skywalker_%28poster%29.jpg" alt="Star Wars IX Episode" @click="openModal">
 <p>Император Палпатин возвращается, собрав флот «Последнего приказа». Рей узнаёт, что она его внучка, но выбирает светлый путь. Кайло Рен отказывается от тьмы и помогает Рей. Вместе они уничтожают Палпатина, но Кайло жертвует собой, чтобы спасти её. Сопротивление побеждает, и Галактика освобождена.</p>
 <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B:_%D0%A1%D0%BA%D0%B0%D0%B9%D1%83%D0%BE%D0%BA%D0%B5%D1%80._%D0%92%D0%BE%D1%81%D1%85%D0%BE%D0%B4" target="_blank">Детальний Сюжет: Звездные Войны Скайуокер Восход</a>
-</div>
+
+  <div v-if="showModal" class="modal" @click.self="closeModal">
+      <img :src="imageSrc" alt="Fullscreen" class="modal-image" />
+      <button class="close-button" @click="closeModal">✖</button>
+    </div>
+  </div>
 
 </template>
 
 <script>
 export default {
+  data() {
+    return {
+      showModal: false,
+      imageSrc: ""
+    };
+  },
+  methods: {
+    openModal() {
+      this.imageSrc = event.target.src;
+      this.showModal = true;
+    },
+    closeModal() {
+      this.showModal = false;
+      this.imageSrc = "";
+    }
+  }
+};
 
-}
+
 </script>
 
-<style>
-
+<style scoped>
+.history{
+font-size: 20px;
+color:yellow;
+background-color: black;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Img-SW{
+  width: 800px;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Img-SW:hover{
+  transition: scale(1.10);
+}
+.modal{
+  position: fixed;
+  inset: 0; 
+  background-color: black ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+.modal-image {
+  max-width: 100vw;
+  max-height: 100vh;
+  border-radius: 10px;
+  animation: zoomIn 0.3s ease;
+  box-shadow: 0 0 35px rgba(260, 260, 260, 0.2);;
+}
+@keyframes zoomIn {
+  from {
+  transform: scale(0.8);
+  opacity: 0;
+  }
+  to {
+  transform: scale(1);
+  opacity: 1;
+  }
+}
+a{
+  font-size:18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:yellow;
+  background-color: black;
+  text-decoration: none;
+}
+a:hover{
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.close-button{
+ position: fixed;
+  top:25px;
+  right:25px;
+  font-size:35px;
+  color:yellow;
+  background-color: black;
+  background: transparent;
+  cursor: pointer;
+  z-index: 10002;
+  user-select: none;
+  border-radius: 25px;
+  
+}
 </style>
