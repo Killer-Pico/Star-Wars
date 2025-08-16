@@ -134,11 +134,14 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 a{
   font-size:18px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:yellow;
+  color:aqua;
   background-color: black;
   text-decoration: none;
+  margin: 20px;
+  padding: 20px;
 }
 a:hover{
+  color:yellow;
   font-size: 20px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

@@ -1,18 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import HistoryStarWarsComponent from './components/HistoryStarWarsComponent.vue'
+
 
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
-    component: HomePage
+    path: '/historySW',
+    name: 'HistoryStarWars',
+    component: HistoryStarWarsComponent
   },
-  {
-    path: '/characters',
-    name: 'Character',
-    component: DangerousridesComponent
-  }
-
+  
 ]
 
 const router = createRouter({
