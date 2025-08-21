@@ -2,6 +2,7 @@
 <footer>
     <div class="info">
       <router-link to="/historySW">Сюжет Звездных Войн</router-link>
+      <router-link to="/characters">Персонажи Звездных Войн</router-link>
       <p>2025 рік | Звездные Войны</p>
 </div>
 </footer>

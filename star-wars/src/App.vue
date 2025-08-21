@@ -2,6 +2,7 @@
 <div>
    <nav>
       <router-link to="/historySW">Сюжет Звездных Войн</router-link>
+      <router-link to="/characters">Персонажи Звездных Войн</router-link>
    </nav>
    <router-view />
   <FooterComponent/>

@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HistoryStarWarsComponent from './components/HistoryStarWarsComponent.vue'
+import CharacterComponent from './components/CharacterComponent.vue'
 
 
 
@@ -9,7 +10,11 @@ const routes = [
     name: 'HistoryStarWars',
     component: HistoryStarWarsComponent
   },
-  
+  {
+    path: '/characters',
+    name: 'Character',
+    component: CharacterComponent
+  }
 ]
 
 const router = createRouter({
